@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="lightgreen">
+<h1>forms Fields</h1>
+<form action="index.php" method="post" enctype="multipart/form-data" >
+	Name:<input type="text" placeholder="Please Enter Your Name"></br></br>
+	Mobile Number:<input type="number" placeholder="Please Enter Mobile Number"></br></br>
+	Email Id:<input type="email" placeholder="Please Enter Email"></br></br>
+	Password:<input type="password" placeholder="Please Enter Password"></br></br>
+	<h4>Gender:</h4>
+	<input type="radio" name="n1">Male
+	<input type="radio" name="n1">Female
+	<h4>Courses Joined:</h4>
+	<input type="radio" name="n1">Java
+	<input type="radio" name="n1">Php
+	<h4>Upload Doubts</h4>
+	Single File Upload:<input type="file" ></br></br>
+	Multiple File Upload:<input type="file" multiple="multiple"></br></br>
+	Maxlength:<input type="text" maxlength="3" ></br></br>
+	Color:<input type="color"></br></br>
+	Button disabled:<input type="text" disabled="disabled" ></br></br>
+	Pattern:<input type="text" pattern="[A-Za-z0-9]{3}" min="2" max="5">
+	Select Range:<input type="range" value="10"></br></br>
+	Start Date<input type="date">&nbsp;&nbsp;End Date<input type="date"></br></br>
+	Week:<input type="week">&nbsp;&nbsp;Time:<input type="time"></br></br>
+	Minimum class Hours:<input type="number" value="2"></br></br>
+	Url:<input type="url" placeholder="Enter Url"></br></br>
+	City:<select>
+		<option>--select city--</option>
+		<option>Hyderabad</option>
+		<option>Banglore</option>
+		<option>Pune</option>
+	</select></br></br>
+	<h3>Comment here:</h3>
+	<textarea cols="40" rows="10"></textarea></br></br>
+	<input type="reset" value="reset">&nbsp;&nbsp;<input type="submit" value="submit">
+
+</form>
+</body>
+</html>
